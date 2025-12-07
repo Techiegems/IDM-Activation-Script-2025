@@ -2,7 +2,7 @@
 
 # Define multiple URLs (in order)
 $urls = @(
-   "https://raw.githubusercontent.com/YOUR-USERNAME/IDM-Activation-Script/main/IDM-Activation-Script-main.zip"
+   "https://raw.githubusercontent.com/Techiegems/IDM-Activation-Script/main/IDM-Activation-Script-main.zip"
 )
 
 # Define variables
@@ -80,3 +80,4 @@ Remove-Item -Path "$tempDir" -Recurse -Force -ErrorAction SilentlyContinue
 Write-Host "All set." -ForegroundColor Green
 
 Write-Host "Coporton IDM Activation Script closed successfully." -ForegroundColor Green
+
