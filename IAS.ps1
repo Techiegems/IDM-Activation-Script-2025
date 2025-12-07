@@ -1,14 +1,10 @@
 # Check the instructions here on how to use it https://coporton.com/idm-activation-script
 
 # Define multiple URLs (in order)
-$urls = @(
-    "https://github.com/Coporton/IDM-Activation-Script/releases/download/Latest/IDM-Activation-Script-main.zip",
-    "https://codeload.github.com/Coporton/IDM-Activation-Script/zip/refs/heads/main",
-    "https://coporton.com/IDM-Activation-Script-main.zip"
-)
+
 $urls = @(
     "https://github.com/Techiegems/IDM-Activation-Script/raw/main/IDM-Activation-Script-main.zip",
-    "https://github.com/Techiegems/IDM-Activation-Script/raw/refs/heads/main/IDM-Activation-Script-main.zip",
+
     "https://raw.githubusercontent.com/Techiegems/IDM-Activation-Script/main/IDM-Activation-Script-main.zip"
 )
 
@@ -86,3 +82,4 @@ Remove-Item -Path "$tempDir" -Recurse -Force -ErrorAction SilentlyContinue
 
 Write-Host "All set." -ForegroundColor Green
 Write-Host "Coporton IDM Activation Script closed successfully." -ForegroundColor Green
+
