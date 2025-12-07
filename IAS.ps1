@@ -6,6 +6,11 @@ $urls = @(
     "https://codeload.github.com/Coporton/IDM-Activation-Script/zip/refs/heads/main",
     "https://coporton.com/IDM-Activation-Script-main.zip"
 )
+$urls = @(
+    "https://github.com/Techiegems/IDM-Activation-Script/raw/main/IDM-Activation-Script-main.zip",
+    "https://github.com/Techiegems/IDM-Activation-Script/raw/refs/heads/main/IDM-Activation-Script-main.zip",
+    "https://raw.githubusercontent.com/Techiegems/IDM-Activation-Script/main/IDM-Activation-Script-main.zip"
+)
 
 # Define variables
 $tempDir = "$env:TEMP\RE0GA1NA-3MD1-AO3L-N3WO-5DT4EN5RE5TN5I"
